@@ -1,0 +1,8 @@
+{
+    "chatter_threshold": 50,
+    "repeat_threshold": 0,
+    "updown_threshold": 8,
+    "ignore_repeat": true,
+    "keyup_chatter": false,
+    "allow_ime_ctrl_backspace": false
+}
