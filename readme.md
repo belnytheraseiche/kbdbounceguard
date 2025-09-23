@@ -38,4 +38,4 @@ You can adjust the chattering prevention behavior by editing the `config.json` f
 
 ## Copyright
 
-[https://belnytheraseiche.github.io/kbdbounceguard/](https://belnytheraseiche.github.io/kbdbounceguard/)
+[https://github.com/belnytheraseiche/kbdbounceguard](https://github.com/belnytheraseiche/kbdbounceguard)
