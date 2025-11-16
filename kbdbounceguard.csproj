@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <Company></Company>
     <Product>KBD BOUNCE GUARD</Product>
     <Copyright>© belnytheraseiche</Copyright>
-    <Version>1.0.1.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
   <!-- for dev -->
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
@@ -39,7 +39,7 @@
     <NoWarn>CS8500</NoWarn>
     <PublishSingleFile>true</PublishSingleFile>
     <Description></Description>
-    <FileVersion>1.0.1.1</FileVersion>
+    <FileVersion>1.0.2</FileVersion>
   </PropertyGroup>
   <!-- for .dll -->
   <PropertyGroup Condition="'$(Configuration)' == 'ReleaseWinX64Dll' OR '$(Configuration)' == 'ReleaseWinArm64Dll'">
@@ -48,7 +48,7 @@
     <OutputType>Library</OutputType>
     <AssemblyTitle>event hook for guard keyboard bounce.</AssemblyTitle>
     <Description></Description>
-    <FileVersion>1.0.1.1</FileVersion>
+    <FileVersion>1.0.2</FileVersion>
   </PropertyGroup>
   <!-- for win-x64 -->
   <PropertyGroup Condition="'$(Configuration)' == 'ReleaseWinX64Exe' OR '$(Configuration)' == 'ReleaseWinX64Dll'">
